@@ -16,11 +16,11 @@ public class User implements Serializable{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long id;
-	String name;
-	String email;
-	String phone;
-	String password;
+	private Long id;
+	private String name;
+	private String email;
+	private String phone;
+	private String password;
 	
 	public User() {		
 	}
